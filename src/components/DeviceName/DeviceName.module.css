@@ -1,0 +1,77 @@
+
+
+/*Device Name*/
+.deviceCondition{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px;
+
+}
+.deviceDetails{
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+    align-items: center;
+    color: #FFFFFF;
+}
+.deviceName{
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+}
+.deviceAddresstyles{
+    font-family: Source Sans 3;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+    color: white;
+
+}
+.devicePin{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+.deviceLocation{
+    padding: 1px 15px;
+}
+
+.devicePins{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.inputField{
+    height:20px;
+    /* width: 230px; */
+    font-family: 'Source Sans 3',sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    background: #3C444C;
+    border: none;
+    color: white;
+    padding-left: 10px;
+}
+.inputFieldDescription{
+    width: 150%;
+    height: 40px;
+    font-family:'Fira Sans',sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    background: #3C444C;
+    border: none;
+    color: white;
+    padding-left: 10px;
+    margin-top: 20px;
+}

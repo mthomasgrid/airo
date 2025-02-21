@@ -1,0 +1,66 @@
+.onboarding{
+    background: #242C35;
+    width: 500px;
+    height: 550px;
+    position: relative;
+    /* z-index:5; */
+    /* top: 15%;
+    left: -700px; */
+    /* left: 35%;
+    /* margin-top: 70px; */
+ 
+}
+.crossLine{
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+.onboardingLogoContent{
+    display: flex;
+    justify-content: center;
+    gap: 280px;
+}
+.logoContent{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #545454;
+}
+.onboardingInfo{
+    padding: 40px;
+}
+.onboardingTitle{
+    font-family: 'Fira Sans',sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    color: #F7F7F7;
+    margin-top: 10px;
+}
+.onboardingContent{
+    font-family: 'Source Sans 3',sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 24px;
+    text-align: left;
+    color: #FCFCFE;
+    margin-top: 20px;
+}
+.onboardingBtn{
+    display: flex;
+    justify-content: center;
+}
+.onboardingBtnContent{
+    width: 258px;
+    height: 40px;
+    border-radius: 2px;
+    border: none;
+    background: #6202EE;
+    font-family: 'Source Sans 3',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}

@@ -1,0 +1,45 @@
+.line {
+    width:  360px;
+}
+
+.timeBasis {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+
+
+.valueBoxContainer1,.valueBoxContainer2{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
+.valueBox{
+    /* width: 330px;
+    height: 250px; */
+    width: 154px;
+    height: 186px;
+    border-radius: 2.93px ;
+    box-shadow: 0px 14.64px 19.52px 0px #0000001A;
+    margin: 20px 10px;
+    padding: 8px 2px;
+    border: 3px solid #0000001A;
+    color: #FFFFFF;
+}
+.valueHeading{
+    font-family: Source Sans 3;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 13.66px;
+    color: #FFFFFF;
+    margin-top: 3px;
+}
+.valueRangeType{
+    font-family: Source Sans 3;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 10.73px;
+    color: #b7b6b6;
+    margin-top: 7px;
+}
+

@@ -1,0 +1,8 @@
+.panel {
+  width: 360px;
+  height: 100vh;
+  background: #242c35;
+  color: #ffffff;
+  position: relative;
+  z-index: 3;
+}

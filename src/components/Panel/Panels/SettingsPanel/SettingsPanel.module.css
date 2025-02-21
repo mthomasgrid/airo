@@ -1,0 +1,67 @@
+/* .settingspanel{
+    width: 360px;
+    height: 100vh;
+    background: #30363D;
+    color: white;
+    position: relative;
+    z-index: 10;
+   
+} */
+.settingspanelnav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.settingstitle{
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+}
+.logouticonimg{
+    display: flex;
+    justify-content: center;
+}
+.logouticoncontent{
+    font-family: Source Sans 3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+.signbtn{
+    display: flex;
+    justify-content: center;
+}
+.signInbtn{
+    width: 258px;
+    height: 40px;
+    border-radius: 2px;
+    background: #6202EE;
+    font-family: Source Sans 3;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+    border:none;
+    cursor: pointer;
+}
+.aboutapp{
+    font-family: Source Sans 3;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: center;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.Xicon{
+    cursor: pointer;
+}

@@ -1,0 +1,65 @@
+.timeBasis {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+.timeRange {
+  width: 110px;
+  height: 40px;
+  border-radius: 3px;
+  box-shadow: 0px 2px 8px 0px #0000001a;
+  border: none;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  background: #3c444c;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+.timeRange:hover {
+  background: #6202ee;
+  color: #ffffff;
+}
+.deviceRemove {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.deviceRemoveName {
+  font-family: Source Sans 3;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.15000000596046448px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.active {
+  background: #6202ee;
+  color: white;
+}
+
+.coordinates {
+  margin: 1rem 0;
+  font-size: 1rem;
+  color: red;
+}
+
+.metricContainer {
+  display: grid;
+  gap: 10px;
+  width: 100%;
+  margin-left: 10px;
+  grid-template-columns: repeat(2, 1fr); /* Two items per row */
+  justify-content: center; /* Centers items horizontally */
+  align-items: center; /* Centers items vertically */
+  height: 400px; /* Ensure the container takes up the full height available */
+}

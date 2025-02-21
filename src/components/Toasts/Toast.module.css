@@ -1,0 +1,86 @@
+
+
+.toast {
+          /* position: relative; */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          padding: 16px;
+          min-width: 340px;
+          animation: appear 0.2s;
+          margin-bottom: 80px; 
+          z-index: 3;
+          /* pointer-events: auto;  */
+         
+
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.icon {
+  margin-right: 8px;
+}
+.ttl {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}
+.msg {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  font-weight: 600;
+  margin-right: 24px;
+}
+
+.success {
+  background-color: #7a1eff;
+}
+
+.error {
+  background-color: #9e00d6;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.customButton{
+          background-color: #6202ee;
+          text-align: center;
+          color: white;
+          border-radius: 2px;
+          width: 258px;
+          height: 40px;
+          border: 1px solid #6202ee;
+          cursor: pointer;
+          transition: all 0.3s ease-in-out;
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          font-size: 14px;
+        
+}
+.toastButton {
+  background-color: #30363d;
+  width: 147px;
+  border: none;
+}
+.toastButton:hover {
+  background-color: #242c35;
+}
+
+.toastButton:active {
+  background-color: #242c35;
+}

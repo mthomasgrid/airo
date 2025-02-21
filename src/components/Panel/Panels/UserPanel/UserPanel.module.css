@@ -1,0 +1,121 @@
+/* .userpanel{
+    width: 360px;
+    height: 100vh;
+    background: #242C35;;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 10;
+} */
+
+.userprofile{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+}
+.profileImg{
+    border-radius: 100%;
+}
+.username{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30.17px;
+}
+.useremail{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.34px;
+}
+
+
+.userdevices{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    position: relative;
+    gap: 30px;
+    border-radius: 2px;
+    background: #3C444C;
+    box-shadow: 0px 10px 20px 0px #0000001A;
+    margin: 30px 10px 10px 10px;
+    padding: 10px;
+}
+.userdevicesimages{
+    display: flex;
+    position: relative;
+}
+.circle{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #6202EE;
+}
+.towericon{
+    position: absolute;
+    top: 6px;
+    left: 30px;
+}
+.userdevicename{
+    font-family: 'Fira Sans';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+}
+.userdeviceaddress{
+    font-family:'Source Sans 3', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.08px;
+    letter-spacing: 0.03em;
+    color: #BDBDBD;
+}
+.adddevices{
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    margin:10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/*Button Code*/
+.userbtn{
+    width: 327px;
+    height: 62px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-around;
+    background: #6202EE;
+    margin: 90px 10px 10px 10px;
+    padding: 10px;
+}
+.privacy,.signout{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.userprivacy,.usersignout{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.6px;
+    text-decoration: none;
+    color: white;
+}
+
+.userDeviceContainer{
+    min-height: 50px;
+    max-height: 300px;
+    overflow-x: auto;
+}
+
+.message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

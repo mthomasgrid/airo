@@ -1,0 +1,110 @@
+.header{
+width: 100vw;
+height: 60px;
+background-color: #242C35;
+color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: relative;
+top: 0;
+z-index: 3;
+}
+
+.head{
+  margin-left: 20px;
+}
+
+.searchBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.clasterization{
+    width: 170px;
+}
+.search{
+    padding:5px 10px;
+    width: 400px;
+    height: 30px;
+    border: 1px solid #FFFFFF40;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchBar__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.input{
+    background-color: transparent;
+    border: none;
+    width: 450px;
+    font-size: 17px;
+    color: white;
+    padding: 5px;
+}
+.input:focus{
+    outline: none; 
+}
+.searchicon{
+    cursor: pointer;
+}
+.dashboard{
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.profileImg{
+    /* height:40px ;
+    width:40px ; */
+    border-radius: 100%;
+}
+
+
+.btnOuter {
+    width: 57px;
+    height: 30px;
+    border: 1px solid #ACAFB1;
+    border-radius: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+    background-color: #242C35;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btnOuter.active {
+    background-color: white;
+    border: white solid 1px;
+  }
+  
+  .btnInner {
+    margin-left: 4px;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    background: #6A6A6A;
+    transition: transform 0.3s ease;
+  }
+  
+  .btnInner.moveRight {
+    transform: translateX(30px);
+  }
+
+ 

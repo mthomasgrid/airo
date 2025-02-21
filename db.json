@@ -1,0 +1,241 @@
+{
+  "devices": [
+    {
+      "id": "1",
+      "name": "device1",
+      "uid": "3c2Yxd3T8OOaVSktflaUlahh6N52",
+      "address": "Nungambakkam",
+      "location": {
+        "lat": 13.0569,
+        "lng": 80.2425
+      },
+      "description": "Device located in the heart of Nungambakkam, Chennai."
+    
+    },
+    {
+      "id": "2",
+      "name": "device2",
+      "address": "Anna Nagar",
+      "uid": "3c2Yxd3T8OOaVSktflaUlahh6N52",
+      "location": {
+        "lat": 13.085,
+        "lng": 80.2101
+      },
+      "description": "Device stationed in Anna Nagar, a prime area in Chennai."
+    },
+    {
+      "id": "3",
+      "name": "device3",
+      "address": "Kilpauk",
+      "uid": "3c2Yxd3T8OOaVSktflaUlahh6N52",
+      "location": {
+        "lat": 13.0828,
+        "lng": 80.2417
+      },
+      "description": "Device placed in Kilpauk, Chennai."
+    },
+    {
+      "id": "4",
+      "name": "device4",
+      "address": "Dublin",
+      "uid": "3c2Yxd3T8OOaVSktflaUlahh6N52",
+      "location": {
+        "lat": 53.3498,
+        "lng": 6.2603
+      },
+      "description": "Device located in the capital city of Ireland, Dublin."
+    },
+    {
+      "id": "5",
+      "name": "device5",
+      "address": "Las Vegas",
+      "uid": "3c2Yxd3T8OOaVSktflaUlahh6N52",
+      "location": {
+        "lat": 36.1716,
+        "lng": 115.1391
+      },
+      "description": "Device stationed in the entertainment hub of Las Vegas."
+    },
+    {
+      "id": "6",
+      "name": "device6",
+      "address": "Coimbatore, Tamil Nadu",
+      "uid": "3c2Yxd3T8OOaVSktflaUlahh6N52",
+      "location": {
+        "lat": 11.0168,
+        "lng": 76.9558
+      },
+      "description": "Device placed in Coimbatore, known as the 'Manchester of South India'."
+    },
+    {
+      "id": "7",
+      "name": "device7",
+      "address": "Madurai, Tamil Nadu",
+      "uid": "drgzGgYGfablP3iGJXwJLh1XtlG3",
+      "location": {
+        "lat": 9.9252,
+        "lng": 78.1198
+      },
+      "description": "Device located in Madurai, a city famous for its temples."
+    },
+    {
+      "id": "8",
+      "name": "device8",
+      "address": "Tiruchirappalli, Tamil Nadu",
+      "uid": "drgzGgYGfablP3iGJXwJLh1XtlG3",
+      "location": {
+        "lat": 10.7905,
+        "lng": 78.7047
+      },
+      "description": "Device placed in Tiruchirappalli, known for its historic Rock Fort."
+    },
+    {
+      "id": "9",
+      "name": "device9",
+      "address": "Salem, Tamil Nadu",
+      "uid": "drgzGgYGfablP3iGJXwJLh1XtlG3",
+      "location": {
+        "lat": 11.6643,
+        "lng": 78.146
+      },
+      "description": "Device stationed in Salem, a city known for its steel plants."
+    },
+    {
+      "id": "10",
+      "name": "device10",
+      "address": "Tirunelveli, Tamil Nadu",
+      "uid": "drgzGgYGfablP3iGJXwJLh1XtlG3",
+      "location": {
+        "lat": 8.7139,
+        "lng": 77.7567
+      },
+      "description": "Device located in Tirunelveli, famous for its halwa."
+    },
+    {
+      "id": "11",
+      "name": "device11",
+      "address": "Kanyakumari, Tamil Nadu",
+      "uid": "drgzGgYGfablP3iGJXwJLh1XtlG3",
+      "location": {
+        "lat": 8.0883,
+        "lng": 77.5385
+      },
+      "description": "Device stationed in Kanyakumari, the southernmost tip of India."
+    },
+    {
+      "id": "12",
+      "name": "device12",
+      "address": "Bengaluru, Karnataka",
+      "uid": "o5Uaoo33vKTwz4tjLB3qcVYUbQo2",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946
+      },
+      "description": "Device placed in Bengaluru, known as the Silicon Valley of India."
+    },
+    {
+      "id": "13",
+      "name": "device13",
+      "address": "Mysuru, Karnataka",
+      "uid": "o5Uaoo33vKTwz4tjLB3qcVYUbQo2",
+      "location": {
+        "lat": 12.2958,
+        "lng": 76.6394
+      },
+      "description": "Device stationed in Mysuru, famous for its palaces and heritage."
+    },
+    {
+      "id": "14",
+      "name": "device14",
+      "address": "Hyderabad, Telangana",
+      "uid": "o5Uaoo33vKTwz4tjLB3qcVYUbQo2",
+      "location": {
+        "lat": 17.385,
+        "lng": 78.4867
+      },
+      "description": "Device located in Hyderabad, known for its biryani and IT hub."
+    },
+    {
+      "id": "15",
+      "name": "device15",
+      "address": "Visakhapatnam, Andhra Pradesh",
+      "uid": "o5Uaoo33vKTwz4tjLB3qcVYUbQo2",
+      "location": {
+        "lat": 17.6868,
+        "lng": 83.2185
+      },
+      "description": "Device stationed in Visakhapatnam, a port city in Andhra Pradesh."
+    },
+    {
+      "id": "16",
+      "name": "device16",
+      "address": "Puducherry",
+      "uid": "o5Uaoo33vKTwz4tjLB3qcVYUbQo2",
+      "location": {
+        "lat": 11.9416,
+        "lng": 79.8083
+      },
+      "description": "Device located in Puducherry, known for its French colonial heritage."
+    },
+    {
+      "id": "17",
+      "name": "melvin",
+      "address": "Dhandapani Street, Parthasarathy Puram, 600017, T Nagar, Chennai, Chennai, Tamil Nadu, India",
+      "description": "melvin location",
+      "uid": "3c2Yxd3T8OOaVSktflaUlahh6N52",
+      "location": {
+        "lat": 13.0383255,
+        "lng": 80.2347788
+      }
+    },
+    {
+      "id": "18",
+      "name": "niranjan",
+      "address": "Dhandapani Street, Parthasarathy Puram, 600017, T Nagar, Chennai, Chennai, Tamil Nadu, India",
+      "uid": "3c2Yxd3T8OOaVSktflaUlahh6N52",
+      "location": {
+        "lat": 13.038317,
+        "lng": 80.234796
+      },
+      "description": "device"
+    },
+    {
+      "id": "19",
+      "name": "sridharan",
+      "address": "Dhandapani Street, Parthasarathy Puram, 600017, T Nagar, Chennai, Chennai, Tamil Nadu, India",
+      "uid": "3c2Yxd3T8OOaVSktflaUlahh6N52",
+      "location": {
+        "lat": 13.0382813,
+        "lng": 80.2347277
+      },
+      "description": "Sridharan's device"
+    },
+    {
+      "id": "20",
+      "name": "sridharan",
+      "address": "Dhandapani Street, Parthasarathy Puram, 600017, T Nagar, Chennai, Chennai, Tamil Nadu, India",
+      "uid": "3c2Yxd3T8OOaVSktflaUlahh6N52",
+      "location": {
+        "lat": 13.0382834,
+        "lng": 80.2347241
+      },
+      "description": ""
+    },
+    {
+      "id": "21",
+      "name": "",
+      "address": "",
+      "uid": "drgzGgYGfablP3iGJXwJLh1XtlG3",
+      "location": {},
+      "description": ""
+    },
+    {
+      "id": "22",
+      "name": "Device24",
+      "address": "Chrompet",
+      "uid": "drgzGgYGfablP3iGJXwJLh1XtlG3",
+      "location": {},
+      "description": "hjebdkwr"
+    }
+  ]
+}

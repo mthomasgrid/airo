@@ -1,0 +1,86 @@
+.hourChart{
+    width: 360px;
+    height: 751px;
+}
+.timeBasis {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+
+.hour {
+    width: 110px;
+    height: 40px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 8px 0px #0000001A;
+    border: none;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    background: #3C444C;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.hour:first-child {
+    background: #6202EE;
+    color: #FFFFFF;
+    pointer-events: none; 
+}
+
+.hour:hover {
+    background: #6202EE;
+    color: #FFFFFF;
+}
+
+.valueBox{
+    width: 154px;
+    height: 154px;
+    border-radius: 2.93px;
+    background: #3C444D;
+    box-shadow: 0px 14.64px 19.52px 0px #0000001A;
+    margin: 20px 10px;
+    padding-top: 12px;
+    position: relative;
+}
+.valueHeading{
+    font-family: Source Sans 3;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 13.66px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 5px;
+
+}
+.valueRangeType{
+    font-family: Source Sans 3;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 10.73px;
+    text-align: center;
+    padding-top: 5px;
+    color: #6c6b6b;
+}
+.pieChart{
+    position: absolute;
+    top:55;
+    left: 25;
+    width: 100px !important;
+    height: 100px !important;
+}
+
+
+
+.valueBoxContainer1,.valueBoxContainer2{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
+
+
